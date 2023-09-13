@@ -1,4 +1,10 @@
-console.log("Hola Saul, bienvenido!")
+
+var boton = document.getElementById("miBoton");
+    boton.addEventListener("click", function() {
+        alert("Es inevitable tocar un boton cuando lo vemos ¿ no ? ");
+    });
+
+console.log("Hola Profe Hola tutores, bienvenido!");
 
     // Ejemplo para calcular nota final de alumno //
 
